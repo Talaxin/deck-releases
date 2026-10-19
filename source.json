@@ -1,0 +1,45 @@
+{
+  "name": "Deck",
+  "identifier": "com.ceph.deck-releases",
+  "sourceURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/source.json",
+  "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
+  "website": "https://github.com/Talaxin/deck-releases",
+  "apps": [
+    {
+      "name": "Deck",
+      "bundleIdentifier": "com.ceph.warmap",
+      "developerName": "Talaxin",
+      "subtitle": "Wardrive HUD for WDGWars",
+      "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
+      "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
+      "tintColor": "22d3ee",
+      "version": "1.0.2",
+      "versionDate": "2026-10-19T15:40:11Z",
+      "size": 748665,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.2/Deck.ipa",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-10-19T15:40:11Z",
+          "size": 748665,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.2/Deck.ipa"
+        }
+      ],
+      "appPermissions": {
+        "NSLocationWhenInUseUsageDescription": "Deck shows your position on the WDGWars grid, the square you are in, and turn-by-turn directions while you drive."
+      },
+      "screenshotURLs": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Deck 1.0.2",
+      "identifier": "deck-1.0.2",
+      "caption": "Cell tap popup, compact neon HUD, Held by <gang>, Nets needed to capture (Confirmed/Needed), and no more 'Network error: cancelled'.",
+      "tintColor": "22d3ee",
+      "date": "2026-10-19",
+      "url": "https://github.com/Talaxin/deck-releases/releases/tag/v1.0.2",
+      "notify": false
+    }
+  ]
+}
