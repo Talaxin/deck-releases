@@ -13,11 +13,19 @@
       "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
       "tintColor": "22d3ee",
-      "version": "1.0.3",
-      "versionDate": "2026-10-19T18:34:54Z",
-      "size": 780956,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.3/Deck.ipa",
+      "version": "1.0.4",
+      "versionDate": "2026-10-19T22:55:45Z",
+      "size": 797665,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.4/Deck.ipa",
       "versions": [
+        {
+          "version": "1.0.4",
+          "buildVersion": "5",
+          "date": "2026-10-19T22:55:45Z",
+          "size": 797665,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.4/Deck.ipa",
+          "localizedDescription": "Fixed drive counting (unique IGNORED/NO GPS, beaconing Wi-Fi devices, ESP32 802.11ax). WI-FI and BT stats. Compass in the bottom controls. Opens centered on you. Blue border on the current cell. Follow mode keeps your zoom."
+        },
         {
           "version": "1.0.3",
           "buildVersion": "4",
@@ -40,6 +48,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Deck 1.0.4",
+      "identifier": "deck-1.0.4",
+      "caption": "Accurate drive counts, WI-FI/BT split, compass in the bottom controls, opens on your location, blue current-cell border, zoom stays put while following.",
+      "tintColor": "22d3ee",
+      "date": "2026-10-19",
+      "url": "https://github.com/Talaxin/deck-releases/releases/tag/v1.0.4",
+      "notify": false
+    },
     {
       "title": "Deck 1.0.3",
       "identifier": "deck-1.0.3",
