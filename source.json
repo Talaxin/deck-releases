@@ -13,11 +13,19 @@
       "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
       "tintColor": "22d3ee",
-      "version": "1.0.4",
-      "versionDate": "2026-10-19T22:55:45Z",
-      "size": 797665,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.4/Deck.ipa",
+      "version": "1.0.5",
+      "versionDate": "2026-10-19T23:42:51Z",
+      "size": 943874,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.5/Deck.ipa",
       "versions": [
+        {
+          "version": "1.0.5",
+          "buildVersion": "6",
+          "date": "2026-10-19T23:42:51Z",
+          "size": 943874,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.5/Deck.ipa",
+          "localizedDescription": "New ESP32 Bluetooth Bridge scanner: an ESP32-S3 running Deck Bridge joins the Wi-Fi your Kismet box is on and streams Kismet's devices and GPS to Deck over Bluetooth. Pick the bridge, scan for Wi-Fi from it, send the password and the Kismet address + API key, and watch live status. Same dedupe and Wi-Fi-with-GPS-only counting. Works while the phone is locked."
+        },
         {
           "version": "1.0.4",
           "buildVersion": "5",
@@ -42,7 +50,8 @@
         }
       ],
       "appPermissions": {
-        "NSLocationWhenInUseUsageDescription": "Deck shows your position on the WDGWars grid, the square you are in, and turn-by-turn directions while you drive."
+        "NSLocationWhenInUseUsageDescription": "Deck shows your position on the WDGWars grid, the square you are in, and turn-by-turn directions while you drive.",
+        "NSBluetoothAlwaysUsageDescription": "Deck connects to your Deck Bridge (an ESP32-S3) over Bluetooth to receive the networks your Kismet device hears, including while the phone is locked during a drive."
       },
       "screenshotURLs": []
     }
