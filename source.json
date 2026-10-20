@@ -62,6 +62,34 @@
         "NSBluetoothAlwaysUsageDescription": "Deck connects to your Deck Bridge (an ESP32-S3) over Bluetooth to receive the networks your Kismet device hears, including while the phone is locked during a drive."
       },
       "screenshotURLs": []
+    },
+    {
+      "name": "Biscuit C5",
+      "bundleIdentifier": "com.ceph.biscuitc5",
+      "developerName": "Talaxin",
+      "subtitle": "Wardriving companion for the XIAO ESP32-C5",
+      "localizedDescription": "Biscuit C5 is a native iPhone companion for a Seeed XIAO ESP32-C5 wardriving board. Five tabs — Dashboard, Wardrive map with live capture and session reports, WiFi scanners, Bluetooth, and Misc — plus a full settings tree and themes. Adds a real battery monitor: enter your pack size to see estimated time remaining and a low-battery alert. Unsigned; Feather signs on-device.",
+      "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/biscuitc5.png",
+      "tintColor": "22d3ee",
+      "version": "1.0.0",
+      "versionDate": "2026-10-19T00:00:00Z",
+      "size": 788328,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/biscuitc5-1.0.0/BiscuitC5.ipa",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "1",
+          "date": "2026-10-19T00:00:00Z",
+          "size": 788328,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/biscuitc5-1.0.0/BiscuitC5.ipa",
+          "localizedDescription": "First release. Five-tab app matching the Biscuit Manager UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert)."
+        }
+      ],
+      "appPermissions": {
+        "NSLocationWhenInUseUsageDescription": "Biscuit C5 shows your position on the wardrive map and tags captured networks with GPS.",
+        "NSBluetoothAlwaysUsageDescription": "Biscuit C5 connects to your XIAO ESP32-C5 over Bluetooth to receive scans and battery status, including while the phone is locked."
+      },
+      "screenshotURLs": []
     }
   ],
   "news": [
