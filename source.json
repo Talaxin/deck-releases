@@ -13,11 +13,19 @@
       "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
       "tintColor": "22d3ee",
-      "version": "1.0.5",
-      "versionDate": "2026-10-19T23:42:51Z",
-      "size": 943874,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.5/Deck.ipa",
+      "version": "1.0.6",
+      "versionDate": "2026-10-20T01:30:25Z",
+      "size": 956297,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.6/Deck.ipa",
       "versions": [
+        {
+          "version": "1.0.6",
+          "buildVersion": "7",
+          "date": "2026-10-20T01:30:25Z",
+          "size": 956297,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.6/Deck.ipa",
+          "localizedDescription": "Fixes 'Could not send to the bridge: Resources are insufficient' (needs Deck Bridge firmware 1.0.1, attached to the release). Bridge commands are queued and retried quietly. New Auto GPS per scanner: device location, else the iPhone's GPS. The bridge screen explains when Kismet has no GPS fix."
+        },
         {
           "version": "1.0.5",
           "buildVersion": "6",
