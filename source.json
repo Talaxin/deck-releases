@@ -72,17 +72,17 @@
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
       "version": "1.0.0",
-      "versionDate": "2026-10-19T00:00:00Z",
-      "size": 788804,
+      "versionDate": "2026-10-20T19:37:24Z",
+      "size": 802250,
       "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.0/Weaselware.ipa",
       "versions": [
         {
           "version": "1.0.0",
           "buildVersion": "1",
-          "date": "2026-10-19T00:00:00Z",
-          "size": 788804,
+          "date": "2026-10-20T19:37:24Z",
+          "size": 802250,
           "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.0/Weaselware.ipa",
-          "localizedDescription": "First release. Five-tab app matching the Weaselware UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert)."
+          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert). New: Forget device to re-pair (clears the saved C5 so it can be re-discovered and paired fresh), and a 2100 mAh battery default."
         }
       ],
       "appPermissions": {
