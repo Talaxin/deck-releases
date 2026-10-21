@@ -1,7 +1,7 @@
 {
-  "version": "1.0.7",
-  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.7/weaselware-1.0.7-app.bin",
-  "sha256": "1d72621257013582e1718bb72175ff1a35f3e4e809fd8ee581fec8b7c0c61eed",
-  "size": 1722016,
-  "notes": "Fix: passive Wi-Fi scan resolves the BLE-coexistence scan timeout; buffered APs are salvaged if the scan-done event is dropped."
+  "version": "1.0.8",
+  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.8/weaselware-1.0.8-app.bin",
+  "sha256": "2de5e393f42951bae291a8da741e8feb1e69b8bd3b73227a3d075145976596de",
+  "size": 1722176,
+  "notes": "Fix: wardrive DATA rows and responses now stream whenever BLE is connected (no longer gated on the subscribe event)."
 }
