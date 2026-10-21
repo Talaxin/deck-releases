@@ -79,11 +79,19 @@
       "localizedDescription": "Weaselware is a native iPhone companion for a Seeed XIAO ESP32-C5 wardriving board. Five tabs — Dashboard, Wardrive map with live capture and session reports, WiFi scanners, Bluetooth, and Misc — plus a full settings tree and themes. Adds a real battery monitor: enter your pack size to see estimated time remaining and a low-battery alert. Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.1",
-      "versionDate": "2026-10-20T20:05:17Z",
-      "size": 802251,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.1/Weaselware.ipa",
+      "version": "1.0.2",
+      "versionDate": "2026-10-21T01:27:25Z",
+      "size": 828845,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.2/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.2",
+          "buildVersion": "3",
+          "date": "2026-10-21T01:27:25Z",
+          "size": 828845,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.2/Weaselware.ipa",
+          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert). New: Firmware Update — upload a local .bin from the app (OTA firmware update). Includes Forget device to re-pair and a 2100 mAh battery default."
+        },
         {
           "version": "1.0.1",
           "buildVersion": "2",
