@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.5/weaselware-1.0.5-app.bin",
-  "sha256": "6900b984dfa87e04675edbb8dcbd55e5d2d33429114983404c1866e69eed8375",
-  "size": 1721824,
-  "notes": "Weaselware firmware 1.0.5: hardened OTA (BLE-first, SoftAP fallback), Wi-Fi/BLE scan coexistence, live wardrive DATA streaming."
+  "version": "1.0.6",
+  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.6/weaselware-1.0.6-app.bin",
+  "sha256": "b5aa8df0c48bfd6b262e02fa7764e5e8918ef95bc8f2c562ea593a3a2d95df5a",
+  "size": 1721808,
+  "notes": "Fix: Wi-Fi scans now work while connected over BLE (use default scan time for C5 coexistence)."
 }
