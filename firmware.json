@@ -1,7 +1,7 @@
 {
-  "version": "1.0.6",
-  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.6/weaselware-1.0.6-app.bin",
-  "sha256": "b5aa8df0c48bfd6b262e02fa7764e5e8918ef95bc8f2c562ea593a3a2d95df5a",
-  "size": 1721808,
-  "notes": "Fix: Wi-Fi scans now work while connected over BLE (use default scan time for C5 coexistence)."
+  "version": "1.0.7",
+  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.7/weaselware-1.0.7-app.bin",
+  "sha256": "1d72621257013582e1718bb72175ff1a35f3e4e809fd8ee581fec8b7c0c61eed",
+  "size": 1722016,
+  "notes": "Fix: passive Wi-Fi scan resolves the BLE-coexistence scan timeout; buffered APs are salvaged if the scan-done event is dropped."
 }
