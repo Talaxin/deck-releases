@@ -76,14 +76,22 @@
       "bundleIdentifier": "com.ceph.weaselware",
       "developerName": "Talaxin",
       "subtitle": "Wardriving companion for the XIAO ESP32-C5",
-      "localizedDescription": "Weaselware is a native iPhone companion for a Seeed XIAO ESP32-C5 wardriving board. Five tabs — Dashboard, Wardrive map with live capture and session reports, WiFi scanners, Bluetooth, and Misc — plus a full settings tree and themes. Adds a real battery monitor: enter your pack size to see estimated time remaining and a low-battery alert. Unsigned; Feather signs on-device.",
+      "localizedDescription": "Weaselware is a native iPhone companion for a Seeed XIAO ESP32-C5 wardriving board. Five tabs — Dashboard, Wardrive map with live capture and session reports, WiFi scanners, Bluetooth, and Misc — plus a full settings tree and themes. Adds a real battery monitor: enter your pack size to see estimated time remaining and a low-battery alert. Firmware Update now shows a live progress bar while uploading. Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.6",
-      "versionDate": "2026-10-21T14:43:28Z",
-      "size": 895770,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.6/Weaselware.ipa",
+      "version": "1.0.7",
+      "versionDate": "2026-10-21T17:42:00Z",
+      "size": 918216,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.7/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.7",
+          "buildVersion": "8",
+          "date": "2026-10-21T17:42:00Z",
+          "size": 918216,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.7/Weaselware.ipa",
+          "localizedDescription": "Firmware Update screen now shows a live progress bar and percent while uploading and flashing a .bin to the C5."
+        },
         {
           "version": "1.0.6",
           "buildVersion": "7",
