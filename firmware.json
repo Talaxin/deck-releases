@@ -1,0 +1,7 @@
+{
+  "version": "1.0.5",
+  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.5/weaselware-1.0.5-app.bin",
+  "sha256": "6900b984dfa87e04675edbb8dcbd55e5d2d33429114983404c1866e69eed8375",
+  "size": 1721824,
+  "notes": "Weaselware firmware 1.0.5: hardened OTA (BLE-first, SoftAP fallback), Wi-Fi/BLE scan coexistence, live wardrive DATA streaming."
+}
