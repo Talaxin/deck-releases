@@ -13,11 +13,19 @@
       "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
       "tintColor": "22d3ee",
-      "version": "1.0.6",
-      "versionDate": "2026-10-20T01:30:25Z",
-      "size": 956297,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.6/Deck.ipa",
+      "version": "1.0.7",
+      "versionDate": "2026-10-21T01:21:00Z",
+      "size": 1014755,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.7/Deck.ipa",
       "versions": [
+        {
+          "version": "1.0.7",
+          "buildVersion": "8",
+          "date": "2026-10-21T01:21:00Z",
+          "size": 1014755,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.7/Deck.ipa",
+          "localizedDescription": "Navigation Live Activity with live turn-by-turn directions (Lock Screen + Dynamic Island). Settings and Scanners stay reachable while navigating. The driven portion of the route fades/dulls as you drive while the road ahead stays bright. WDGWars requests now retry with backoff instead of a single timeout ('did not answer'). Silent GPS fallback: phone GPS first, device GPS only when the phone has no fix."
+        },
         {
           "version": "1.0.6",
           "buildVersion": "7",
