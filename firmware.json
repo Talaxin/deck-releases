@@ -1,7 +1,7 @@
 {
-  "version": "1.0.8",
-  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.8/weaselware-1.0.8-app.bin",
-  "sha256": "2de5e393f42951bae291a8da741e8feb1e69b8bd3b73227a3d075145976596de",
-  "size": 1722176,
-  "notes": "Fix: wardrive DATA rows and responses now stream whenever BLE is connected (no longer gated on the subscribe event)."
+  "version": "1.0.9",
+  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.9/weaselware-1.0.9-app.bin",
+  "sha256": "eec96606eb63d7e0b30ca2f38caf6ce49f6cc905a878d40632232f2fc662384e",
+  "size": 1722992,
+  "notes": "Fix: Response READ drain so iOS can poll DATA rows when NOTIFY fails (wardrive map/counters)."
 }
