@@ -1,7 +1,7 @@
 {
-  "version": "1.0.9",
-  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.0.9/weaselware-1.0.9-app.bin",
-  "sha256": "eec96606eb63d7e0b30ca2f38caf6ce49f6cc905a878d40632232f2fc662384e",
-  "size": 1722992,
-  "notes": "Fix: Response READ drain so iOS can poll DATA rows when NOTIFY fails (wardrive map/counters)."
+  "version": "1.1.0",
+  "url": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-fw-1.1.0/weaselware-1.1.0-app.bin",
+  "sha256": "faec4e86c8a6f09a3d8dfb3cab981cd9264f8a56790ca4cfdffa4f6a1f89ed4a",
+  "size": 1723456,
+  "notes": "Fix: NimBLE conn handle 0 is valid — stop dropping all RSP/DATA/TIME lines. Compact Status JSON with live bleSub/txSent/txDrop/notifyFail diagnostics."
 }
