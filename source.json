@@ -13,11 +13,20 @@
       "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
       "tintColor": "22d3ee",
-      "version": "1.0.8",
-      "versionDate": "2026-10-23T01:48:00Z",
-      "size": 1080227,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.8/Deck.ipa",
+      "version": "1.0.9",
+      "versionDate": "2026-10-23T03:01:18Z",
+      "size": 1117176,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.9/Deck.ipa",
       "versions": [
+        {
+          "version": "1.0.9",
+          "buildVersion": "10",
+          "date": "2026-10-23T03:01:18Z",
+          "size": 1117176,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.9/Deck.ipa",
+          "localizedDescription": "TrollStore fix: IPA is ad-hoc signed with an embedded application-identifier entitlement (app + Live Activity widget), so TrollStore no longer rejects it. Minimum iOS 16.0. Includes the 1.0.8 iOS 16 map.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.8",
           "buildVersion": "9",
@@ -89,11 +98,20 @@
       "localizedDescription": "Weaselware is a native iPhone companion for a Seeed XIAO ESP32-C5 wardriving board. Five tabs \u2014 Dashboard, Wardrive map with live capture and session reports, WiFi scanners, Bluetooth, and Misc \u2014 plus a full settings tree and themes. Adds a real battery monitor: enter your pack size to see estimated time remaining and a low-battery alert. Firmware Update now shows a live progress bar while uploading. Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.10",
-      "versionDate": "2026-10-23T01:48:00Z",
-      "size": 971041,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.10/Weaselware.ipa",
+      "version": "1.0.11",
+      "versionDate": "2026-10-23T03:01:18Z",
+      "size": 1002170,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.11/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.11",
+          "buildVersion": "12",
+          "date": "2026-10-23T03:01:18Z",
+          "size": 1002170,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.11/Weaselware.ipa",
+          "localizedDescription": "TrollStore fix: IPA is ad-hoc signed with an embedded application-identifier entitlement, so TrollStore no longer rejects it. Minimum iOS 16.0. Includes the 1.0.10 iOS 16 maps. Keep firmware 1.1.0.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.10",
           "buildVersion": "11",
