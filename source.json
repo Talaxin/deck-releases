@@ -13,11 +13,20 @@
       "localizedDescription": "Deck is a native iPhone wardriving HUD for WDGWars. Dark neon map, live territory grid, capture progress (Confirmed/Needed), and turn-by-turn while you drive. Sign in with your WDGWars API key (or username + password via the documented login route). Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icon.png",
       "tintColor": "22d3ee",
-      "version": "1.0.7",
-      "versionDate": "2026-10-21T01:21:00Z",
-      "size": 1014755,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.7/Deck.ipa",
+      "version": "1.0.8",
+      "versionDate": "2026-10-23T01:48:00Z",
+      "size": 1080227,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.8/Deck.ipa",
       "versions": [
+        {
+          "version": "1.0.8",
+          "buildVersion": "9",
+          "date": "2026-10-23T01:48:00Z",
+          "size": 1080227,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/v1.0.8/Deck.ipa",
+          "localizedDescription": "Runs on iOS 16 (minimum iOS 16.0, e.g. iOS 16.7.10 via TrollStore). iOS 16 uses an MKMapView Drive map with the same grid, route, car marker, follow camera and compass; iOS 17+ keeps the SwiftUI map. Live Activity needs iOS 16.2+. Widget extension now has its own bundle id so TrollStore accepts the IPA.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.7",
           "buildVersion": "8",
@@ -69,7 +78,8 @@
         "NSLocationWhenInUseUsageDescription": "Deck shows your position on the WDGWars grid, the square you are in, and turn-by-turn directions while you drive.",
         "NSBluetoothAlwaysUsageDescription": "Deck connects to your Deck Bridge (an ESP32-S3) over Bluetooth to receive the networks your Kismet device hears, including while the phone is locked during a drive."
       },
-      "screenshotURLs": []
+      "screenshotURLs": [],
+      "minOSVersion": "16.0"
     },
     {
       "name": "Weaselware",
@@ -79,11 +89,20 @@
       "localizedDescription": "Weaselware is a native iPhone companion for a Seeed XIAO ESP32-C5 wardriving board. Five tabs \u2014 Dashboard, Wardrive map with live capture and session reports, WiFi scanners, Bluetooth, and Misc \u2014 plus a full settings tree and themes. Adds a real battery monitor: enter your pack size to see estimated time remaining and a low-battery alert. Firmware Update now shows a live progress bar while uploading. Unsigned; Feather signs on-device.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.9",
-      "versionDate": "2026-10-22T02:54:20Z",
-      "size": 922677,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.9/Weaselware.ipa",
+      "version": "1.0.10",
+      "versionDate": "2026-10-23T01:48:00Z",
+      "size": 971041,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.10/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.10",
+          "buildVersion": "11",
+          "date": "2026-10-23T01:48:00Z",
+          "size": 971041,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.10/Weaselware.ipa",
+          "localizedDescription": "Runs on iOS 16 (minimum iOS 16.0, e.g. iOS 16.7.10 via TrollStore). iOS 16 uses MKMapView versions of the Wardrive, Geofence and route-preview maps; iOS 17+ keeps the SwiftUI maps. Keep firmware 1.1.0.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.9",
           "buildVersion": "10",
@@ -161,7 +180,8 @@
         "NSLocationWhenInUseUsageDescription": "Weaselware shows your position on the wardrive map and tags captured networks with GPS.",
         "NSBluetoothAlwaysUsageDescription": "Weaselware connects to your XIAO ESP32-C5 over Bluetooth to receive scans and battery status, including while the phone is locked."
       },
-      "screenshotURLs": []
+      "screenshotURLs": [],
+      "minOSVersion": "16.0"
     }
   ],
   "news": [
