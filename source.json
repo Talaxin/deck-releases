@@ -98,11 +98,20 @@
       "localizedDescription": "Weaselware is the iPhone companion for the Seeed XIAO ESP32-C5 Weaselware firmware: Devices, Dashboard, Wardrive map with Biscuit-style floating +N popups, Wi-Fi/BT scans, and WiGLE CSV export. Unsigned; install via Feather or TrollStore. Minimum iOS 16.0.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.12",
-      "versionDate": "2026-10-23T15:11:05Z",
-      "size": 1012197,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.12/Weaselware.ipa",
+      "version": "1.0.13",
+      "versionDate": "2026-10-24T00:38:31Z",
+      "size": 1017189,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.13/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.13",
+          "buildVersion": "14",
+          "date": "2026-10-24T00:38:31Z",
+          "size": 1017189,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.13/Weaselware.ipa",
+          "localizedDescription": "Wardrive Complete sheet and history now match the live HUD counts (captures or device STATUS, whichever is higher). Distance now accumulates during the drive. Floating green Wi-Fi / blue BT +N popups now actually appear over the location dot (fixes invisible popups in 1.0.12).",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.12",
           "buildVersion": "13",
