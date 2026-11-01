@@ -98,11 +98,20 @@
       "localizedDescription": "Weaselware is the iPhone companion for the Seeed XIAO ESP32-C5 Weaselware firmware: Devices, Dashboard, Wardrive map with Biscuit-style floating +N popups, Wi-Fi/BT scans, and WiGLE CSV export. Unsigned; install via Feather or TrollStore. Minimum iOS 16.0.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.13",
-      "versionDate": "2026-10-24T00:38:31Z",
-      "size": 1017189,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.13/Weaselware.ipa",
+      "version": "1.0.14",
+      "versionDate": "2026-11-01T16:16:14Z",
+      "size": 1024199,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.14/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.14",
+          "buildVersion": "15",
+          "date": "2026-11-01T16:16:14Z",
+          "size": 1024199,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.14/Weaselware.ipa",
+          "localizedDescription": "Wardrive HUD now streams networks in like Biscuit: new Wi-Fi and BT networks tick in as small +1 to +4 popups (green Wi-Fi / blue BT) with the counter and map pins in step, instead of one big jump per scan sweep or device STATUS update. Final totals and the Complete sheet are unchanged.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.13",
           "buildVersion": "14",
@@ -193,7 +202,7 @@
           "date": "2026-10-21T01:27:25Z",
           "size": 828845,
           "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.2/Weaselware.ipa",
-          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage \u2192 %, pack-size \u2192 time remaining, low-battery alert). New: Firmware Update \u2014 upload a local .bin from the app (OTA firmware update). Includes Forget device to re-pair and a 2100 mAh battery default."
+          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert). New: Firmware Update — upload a local .bin from the app (OTA firmware update). Includes Forget device to re-pair and a 2100 mAh battery default."
         },
         {
           "version": "1.0.1",
@@ -201,7 +210,7 @@
           "date": "2026-10-20T20:05:17Z",
           "size": 802251,
           "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.1/Weaselware.ipa",
-          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage \u2192 %, pack-size \u2192 time remaining, low-battery alert). New: Forget device to re-pair (clears the saved C5 so it can be re-discovered and paired fresh), and a 2100 mAh battery default."
+          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert). New: Forget device to re-pair (clears the saved C5 so it can be re-discovered and paired fresh), and a 2100 mAh battery default."
         },
         {
           "version": "1.0.0",
@@ -209,7 +218,7 @@
           "date": "2026-10-20T19:37:24Z",
           "size": 802250,
           "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.0/Weaselware.ipa",
-          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage \u2192 %, pack-size \u2192 time remaining, low-battery alert). New: Forget device to re-pair (clears the saved C5 so it can be re-discovered and paired fresh), and a 2100 mAh battery default."
+          "localizedDescription": "Five-tab app matching the Weaselware UI, with a real battery monitor (voltage → %, pack-size → time remaining, low-battery alert). New: Forget device to re-pair (clears the saved C5 so it can be re-discovered and paired fresh), and a 2100 mAh battery default."
         }
       ],
       "appPermissions": {
