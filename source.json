@@ -98,11 +98,20 @@
       "localizedDescription": "Weaselware is the iPhone companion for the Seeed XIAO ESP32-C5 Weaselware firmware: Devices, Dashboard, Wardrive map with Biscuit-style floating +N popups, Wi-Fi/BT scans, and WiGLE CSV export. Unsigned; install via Feather or TrollStore. Minimum iOS 16.0.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.18",
-      "versionDate": "2026-11-01T21:57:39Z",
-      "size": 1055046,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.18/Weaselware.ipa",
+      "version": "1.0.19",
+      "versionDate": "2026-11-02T14:17:53Z",
+      "size": 1060253,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.19/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.19",
+          "buildVersion": "20",
+          "date": "2026-11-02T14:17:53Z",
+          "size": 1060253,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.19/Weaselware.ipa",
+          "localizedDescription": "Wardrive popups fixed to match Biscuit: each scan now shows one +N per radio, and the number is exactly how much that counter just went up (blue for Wi-Fi, teal for BT; the counter numbers use the same colours). Popups start at the centre of your location dot and rise straight up with no sideways drift; if Wi-Fi and BT fire together the BT one sits just above. The text has a clear dark outline. The samples lines now update together with the counters.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.18",
           "buildVersion": "19",
