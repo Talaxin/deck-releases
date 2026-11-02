@@ -98,11 +98,20 @@
       "localizedDescription": "Weaselware is the iPhone companion for the Seeed XIAO ESP32-C5 Weaselware firmware: Devices, Dashboard, Wardrive map with Biscuit-style floating +N popups, Wi-Fi/BT scans, and WiGLE CSV export. Unsigned; install via Feather or TrollStore. Minimum iOS 16.0.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.20",
-      "versionDate": "2026-11-02T15:01:09Z",
-      "size": 1074779,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.20/Weaselware.ipa",
+      "version": "1.0.21",
+      "versionDate": "2026-11-02T15:12:59Z",
+      "size": 1093374,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.21/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.21",
+          "buildVersion": "22",
+          "date": "2026-11-02T15:12:59Z",
+          "size": 1093374,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.21/Weaselware.ipa",
+          "localizedDescription": "Like Biscuit, the map now clears after each wardrive so the next drive tracks everything again: the trail, pins, Wi-Fi/BT counters, samples and seen networks all reset (when you close the report, or right away if the report is off). Turn it off in Settings › Wardriving › Clear Map After Each Wardrive to keep earlier drives on the map. There's also a Clear Map button on the map and the Wardrive Complete screen (disabled while driving). Your saved sessions, History and CSV/WiGLE exports are never deleted. The Complete screen's 'APs' tile is now labelled 'Wi-Fi samples'.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.20",
           "buildVersion": "21",
