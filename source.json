@@ -98,11 +98,20 @@
       "localizedDescription": "Weaselware is the iPhone companion for the Seeed XIAO ESP32-C5 Weaselware firmware: Devices, Dashboard, Wardrive map with Biscuit-style floating +N popups, Wi-Fi/BT scans, and WiGLE CSV export. Unsigned; install via Feather or TrollStore. Minimum iOS 16.0.",
       "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/weaselware.png",
       "tintColor": "22d3ee",
-      "version": "1.0.19",
-      "versionDate": "2026-11-02T14:17:53Z",
-      "size": 1060253,
-      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.19/Weaselware.ipa",
+      "version": "1.0.20",
+      "versionDate": "2026-11-02T15:01:09Z",
+      "size": 1074779,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.20/Weaselware.ipa",
       "versions": [
+        {
+          "version": "1.0.20",
+          "buildVersion": "21",
+          "date": "2026-11-02T15:01:09Z",
+          "size": 1074779,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/weaselware-1.0.20/Weaselware.ipa",
+          "localizedDescription": "Fixes the Wardrive Complete screen on iOS 26: the cut-off \"D…\" button in the top-left is now a clear ✕ close button, and the blank white pill at the bottom is now a full-width \"Upload Session\" button with an icon and readable text. The same close-button fix is applied to every other sheet (Settings, Devices, History, Console, scans, attack warning), toolbar text buttons can no longer be cut off, and on/off switches use the theme colour instead of white-on-white.",
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.19",
           "buildVersion": "20",
