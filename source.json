@@ -290,6 +290,35 @@
       },
       "screenshotURLs": [],
       "minOSVersion": "16.0"
+    },
+    {
+      "name": "BetterBMS",
+      "bundleIdentifier": "com.talaxin.betterbms",
+      "developerName": "Talaxin",
+      "subtitle": "CyberCase JBD BMS monitor & control",
+      "localizedDescription": "BetterBMS is the iPhone app for the CyberCase JBD BMS: live cell and pack monitoring (per-cell voltage bars with active-balance highlight, current, SoC, temperatures), MOS charge/discharge control (charge-only, both on, discharge-only, verified by FET readback), and parameter editing for the 4S JBD SP04S075 BMS. Unsigned; Feather signs on-device. Minimum iOS 17.0.",
+      "iconURL": "https://raw.githubusercontent.com/Talaxin/deck-releases/main/icons/betterbms.png",
+      "tintColor": "1bd1ab",
+      "version": "1.3.41",
+      "versionDate": "2026-11-02T19:05:22Z",
+      "size": 462442,
+      "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/cybercase-1.3.41/BetterBMS.ipa",
+      "versions": [
+        {
+          "version": "1.3.41",
+          "buildVersion": "41",
+          "date": "2026-11-02T19:05:22Z",
+          "size": 462442,
+          "downloadURL": "https://github.com/Talaxin/deck-releases/releases/download/cybercase-1.3.41/BetterBMS.ipa",
+          "localizedDescription": "First Feather release of BetterBMS for the CyberCase pack (4S6P Molicel P45B, JBD SP04S075). Includes the MOS discharge-off fix (EEPROM 0x2D switch bit cleared, FET state confirmed by readback), balance ON/armed/off status, and Real Time cell bars with active-balance highlight.",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "NSBluetoothAlwaysUsageDescription": "BetterBMS connects to your JBD / Xiaoxiang BMS over Bluetooth to show live battery data and send the passcode the official app never asks for."
+      },
+      "screenshotURLs": [],
+      "minOSVersion": "17.0"
     }
   ],
   "news": [
